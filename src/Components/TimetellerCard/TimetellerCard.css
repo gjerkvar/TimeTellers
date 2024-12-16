@@ -1,0 +1,11 @@
+.timeteller-card {
+    background-color: #354F72;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex; /* Enable flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Horizontally center */
+    justify-content: center; /* Vertically center */
+    text-align: center; /* Center-align text inside */
+}

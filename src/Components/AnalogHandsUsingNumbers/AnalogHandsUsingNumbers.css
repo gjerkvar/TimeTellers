@@ -1,0 +1,41 @@
+.clock {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hand {
+    position: absolute;
+    width: 50%; /* Length of the hand */
+    height: 1rem; /* For alignment */
+    display: flex;
+    justify-content: flex-start; /* Start at center of clock */
+    align-items: center;
+    transform-origin: 0% 50%; /* Rotate around the center of the clock */
+    top: 50%; /* Place at the vertical center */
+    left: 50%; /* Place at the horizontal center */
+    font-weight: bold;
+
+  }
+  
+  .hour span {
+    font-size: 1.5rem;
+    color: blue;
+  }
+  
+  .minute span {
+    font-size: 1.2rem;
+    color: green;
+  }
+  
+  .second span {
+    font-size: 1rem;
+    color: red;
+  }
+  
