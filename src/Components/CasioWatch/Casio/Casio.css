@@ -1,0 +1,15 @@
+.casio-watch {
+    background-color: black;
+}
+
+.casio-lcd {
+    background-color: #CCCCCC;
+    color: #333333;
+    border-radius: 16px;
+}
+
+.active-digit {
+    background-color: yellow;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
