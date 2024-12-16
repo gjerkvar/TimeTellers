@@ -2,13 +2,19 @@ import React from 'react';
 import './App.css';
 import { TimetellerCard } from './Components/TimetellerCard/TimetellerCard.component';
 import Clock from './Components/AnalogHandsUsingNumbers/AnalogHandsUsingNumbers.component';
+import { Casio } from './Components/CasioWatch/Casio/Casio.component';
 
 const timeTellers = [
   {
-    name: "TimeTeller 1",
-    description: "TimeTeller 1 description",
+    name: "Analog hands using numbers",
+    description: "Analog clock with numbers as hands",
     children: <Clock />
   },
+  {
+    name: "Casio",
+    description: "Casio digital watch",
+    children: <Casio />
+  }
 ];
 
 function App() {
